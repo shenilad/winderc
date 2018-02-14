@@ -8,11 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Favicon Icon -->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
         
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500" rel="stylesheet"> 
-		
+        <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500" rel="stylesheet">
+
 		<!-- All css here -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -64,14 +64,8 @@
                         <div class="col-lg-7 col-md-7">
                             <div class="main-menu mean-menu">
                                 <nav>
-                                    <ul>              
-                                        <li><a href="index.html">Home<i class="icon-arrow-down"></i></a>
-                                            <ul>
-                                                <li><a href="index.html">Homepage One</a></li>
-                                                <li><a href="index-2.html">Homepage Two</a></li>
-                                                <li><a href="index-3.html">Homepage Three</a></li>
-                                            </ul>
-                                        </li>
+                                    <ul>
+                                        <li class="active"><a href="index-2.html">Home</a></li>
                                         <li><a href="about.html">About Us</a></li>
                                         <li><a href="shop-list.html">Shop<i class="icon-arrow-down"></i></a>
                                             <ul>
@@ -135,7 +129,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-3 col-sm-3">
                         <div class="single-c-info">
                             <span class="icon icon-Phone"></span>
                             <h5>Phone Number</h5>
@@ -143,7 +137,7 @@
                             <span>Phone Number: (678) 740 2746<br></span>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-3 col-sm-3">
                         <div class="single-c-info">
                             <span class="icon icon-Pointer"></span>
                             <h5>Address</h5>
@@ -151,13 +145,28 @@
                             <span>829 Tucker Ct <br>Winder, GA 30680</span>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-3 col-sm-3">
                         <div class="single-c-info">
                             <span class="icon icon-Phone"></span>
                             <h5>Email</h5>
                             <div class="c-divider"></div>
                             <span>windercollision@gmail.com<br></span>
                         </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3">
+                            <div class="single-c-info">
+                                <span class="icon icon-Phone"></span>
+                                <h5>Hours of Operation</h5>
+                                <div class="c-divider"></div>
+                                <span>  Monday: 8am-6:30pm<br>
+                                        Tuesday: 8am-6:30pm<br>
+                                        Wednesday: 8am-6:30pm<br>
+                                        Thursday: 8am-6:30pm<br>
+                                        Friday: 8am-6:30pm<br>
+                                        Saturday: 8am-4:00pm<br>
+                                        Sunday: By Appointment Only<br></span>
+                            </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -170,7 +179,7 @@
                     <div class="col-lg-7 col-md-8">
                         <div class="section-title-two pb-55">
                             <h3>Get in touch</h3>
-                            <p>Please leave us your contact information below, and we will reach out to you soon!</p>
+                            <p>We would love to hear from you!  Leave us a message below, and one of our staff members will reach out to you soon!</p>
                         </div>
                     </div>
                 </div>
@@ -318,7 +327,7 @@
             function init() {
                 var mapOptions = {
                     zoom: 11,
-                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                    center: new google.maps.LatLng(33.959924,-83.7755917), // Winder, Georgia
                     styles: [{"stylers":[{"hue":"#ff1a00"},{"invert_lightness":true},{"saturation":-100},{"lightness":33},{"gamma":0.5}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#2D333C"}]}]
                 };
                 var mapElement = document.getElementById('googleMap');

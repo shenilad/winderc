@@ -275,7 +275,7 @@
 .single-testi {margin-bottom: 64px; text-align: center;}
 .single-testi .name-info {
     color: #ffffff;
-    display: block;
+    display: bl;
     font-family: "oswaldextralight";
     margin-bottom: 0;
     margin-top: 46px;
@@ -1089,7 +1089,7 @@ iframe {width: 100%; border: 0;}
     display: block;
     font-size: 12px;
     line-height: 24px;
-    padding-left: 60px;
+    padding-left: 20px;
 }
 .single-c-info span.icon {
     color: #181c27;
@@ -1115,6 +1115,7 @@ iframe {width: 100%; border: 0;}
     width: 40px;
 }
 .single-c-info {padding-bottom: 40px;}
+/*text information*/
 .single-c-info span {
     color: #91939f;
     display: block;
@@ -1122,6 +1123,7 @@ iframe {width: 100%; border: 0;}
     line-height: 24px;
     padding-left: 60px;
 }
+/*icon*/
 .single-c-info span.icon {
     color: #181c27;
     font-size: 36px;
@@ -1129,6 +1131,7 @@ iframe {width: 100%; border: 0;}
     margin-bottom: 26px;
     padding-left: 54px;
 }
+/*title*/
 .single-c-info > h5 {
     color: #181b24;
     font-family: "oswaldmedium";
@@ -1137,6 +1140,7 @@ iframe {width: 100%; border: 0;}
     padding-left: 60px;
     text-transform: uppercase;
 }
+/*red divider*/
 .c-divider {
     background: #e51515 none repeat scroll 0 0;
     display: block;
