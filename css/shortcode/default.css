@@ -679,6 +679,7 @@ textarea:focus {box-shadow: none; outline: 0}
 }
 .section-title > p, .section-title-light > p {line-height: 13px; margin: 0;}
 .section-title-light > h2 {color: #181b24;}
+.section-title-light2 > h2 {color: #fff;}
 .section-title .text-white, .section-title-light .text-white {color: #fff}
 .section-title-two h3 {
     color: #181c27;

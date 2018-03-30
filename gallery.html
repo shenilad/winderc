@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Favicon Icon -->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
         
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500" rel="stylesheet"> 
@@ -26,6 +26,9 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <!--slideshow js here -->
+        <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+        <script src="js/modernizr.js"></script> <!-- Modernizr -->
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -64,28 +67,22 @@
                         <div class="col-lg-7 col-md-7">
                             <div class="main-menu mean-menu">
                                 <nav>
-                                    <ul>              
-                                        <li><a href="index.html">Home<i class="icon-arrow-down"></i></a>
-                                            <ul>
-                                                <li><a href="index.html">Homepage One</a></li>
-                                                <li><a href="index-2.html">Homepage Two</a></li>
-                                                <li><a href="index-3.html">Homepage Three</a></li>
-                                            </ul>
-                                        </li>
+                                    <ul>
+                                        <li class="active"><a href="index-2.html">Home</a></li>
                                         <li><a href="about.html">About Us</a></li>
-                                        <li><a href="shop-list.html">Shop<i class="icon-arrow-down"></i></a>
-                                            <ul>
-                                                <li><a href="product-details.html">Product Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="service.html">Service</a></li>
+                                        <li><a href="service.html">Services</a></li>
                                         <li><a href="team.html">Team</a></li>
-                                        <li class="active"><a href="blog.html">Blog<i class="icon-arrow-down"></i></a>
+                                        <li><a href="gallery.html">Gallery<i class="icon-arrow-down"></i></a>
                                             <ul>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="contact.html">contact us</a></li>
+                                        <li><a href="shop-list.html">Shop<i class="icon-arrow-down"></i></a>
+                                            <ul>
+                                                <li><a href="product-details.html">Product Details</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -110,11 +107,11 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="breadcrumb-text text-left">
-							<h2>OUR Blog</h2>
+							<h2>OUR GALLERY</h2>
 							<div class="breadcrumb-bar">
 								<ul class="breadcrumb">
 									<li><a href="index.html">Home</a></li>
-									<li>Our Blog</li>
+									<li>Gallery</li>
 								</ul>
 							</div>
 						</div>
@@ -123,6 +120,147 @@
 			</div>
 		</div>
 		<!-- Breadcrumb Area End -->
+
+
+
+        <!-- Image Comparison Slider Begin-->
+        <div class="service-two-area ptb-150">
+            <div class="container text-center">
+                <div class="section-title-light pb-60">
+                    <h5> See The Difference For Yourself </h5>
+                    <div class="section-title-light">
+                    <h2>BEFORE & AFTER GALLERY</h2>
+                    </div>
+                    <p>Drag the red arrows left and right to see the original and repaired images.</p>
+                </div>
+
+                <div class="custom">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-service">
+                            <div class="section-title-light">
+                                <h2>BUMPER RESTORATION</h2>
+                                <span class="divider"></span>
+                            </div>
+                            <figure class="cd-image-container">
+                                <img src="img/image_slider/silver_truck/repaired.jpg" alt="Original Image">
+                                <span class="cd-image-label" data-type="original">REPAIRED</span>
+
+                                <div class="cd-resize-img"> <!-- the resizable image on top -->
+                                    <img src="img/image_slider/silver_truck/original.jpg" alt="Modified Image">
+                                    <span class="cd-image-label" data-type="modified">ORIGINAL</span>
+                                </div>
+
+                                <span class="cd-handle"></span>
+                            </figure> <!-- cd-image-container -->
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-service">
+                            <div class="section-title-light">
+                                <h2>PAINTLESS DENT REMOVAL</h2>
+                                <span class="divider"></span>
+                            </div>
+                            <figure class="cd-image-container">
+                                <img src="img/image_slider/e350/repaired.jpg" alt="Original Image">
+                                <span class="cd-image-label" data-type="original">REPAIRED</span>
+
+                                <div class="cd-resize-img"> <!-- the resizable image on top -->
+                                    <img src="img/image_slider/e350/original.jpg" alt="Modified Image">
+                                    <span class="cd-image-label" data-type="modified">ORIGINAL</span>
+                                </div>
+
+                                <span class="cd-handle"></span>
+                            </figure> <!-- cd-image-container -->
+
+                            <span class="divider"></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-service">
+                            <div class="section-title-light">
+                                <h2>SCRATCH, AIRBRUSH, BUMPER RESTORATION</h2>
+                                <span class="divider"></span>
+                            </div>
+                            <figure class="cd-image-container">
+                                <img src="img/image_slider/IMG_0029.JPG" alt="Repaired Image">
+                                <span class="cd-image-label" data-type="original">REPAIRED</span>
+                                <div class="cd-resize-img"> <!-- the resizable image on top -->
+                                    <img src="img/image_slider/IMG_0010.JPG" alt="Original Image">
+                                    <span class="cd-image-label" data-type="modified">ORIGINAL</span>
+                                </div>
+                                <span class="cd-handle"></span>
+                            </figure> <!-- cd-image-container -->
+                            <span class="divider"></span>
+                            <p>Scratch, Airbrush, Bumper Restoration</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-service">
+                            <div class="section-title-light">
+                                <h2>SCRATCH, AIRBRUSH</h2>
+                                <span class="divider"></span>
+                            </div>
+                            <figure class="cd-image-container">
+                                <img src="img/image_slider/IMG_0027.JPG" alt="Repaired Image">
+                                <span class="cd-image-label" data-type="original">REPAIRED</span>
+
+                                <div class="cd-resize-img"> <!-- the resizable image on top -->
+                                    <img src="img/image_slider/IMG_0015.JPG" alt="Original Image">
+                                    <span class="cd-image-label" data-type="modified">ORIGINAL</span>
+                                </div>
+
+                                <span class="cd-handle"></span>
+                            </figure> <!-- cd-image-container -->
+
+                            <span class="divider"></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-service">
+                            <div class="section-title-light">
+                                <h2>SCRATCH, AIRBRUSH, BUMPER RESTORATION</h2>
+                                <span class="divider"></span>
+                            </div>
+                            <figure class="cd-image-container">
+                                <img src="img/image_slider/img-original.jpg" alt="Original Image">
+                                <span class="cd-image-label" data-type="original">REPAIRED</span>
+
+                                <div class="cd-resize-img"> <!-- the resizable image on top -->
+                                    <img src="img/image_slider/img-modified.jpg" alt="Modified Image">
+                                    <span class="cd-image-label" data-type="modified">ORIGINAL</span>
+                                </div>
+
+                                <span class="cd-handle"></span>
+                            </figure> <!-- cd-image-container -->
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <!-- Image Comparison Slider End-->
+
+
         <!-- Blog Section Area Start -->
         <div class="blog-section-area ptb-150">
             <div class="container">
@@ -317,19 +455,19 @@
                                 <div class="footer-logo">
                                     <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
                                 </div>
-                                <p class="pr-10">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
+                                <p class="pr-10">One of the leading collision centers specializing in auto body repair and paint shop.  Check out our many provided services or give us a call for an insurance estimate.  We're here to fulfill all of your collision needs!</p>
                                 <div class="footer-info-wrapper">
                                     <div class="f-info">
                                         <span class="icon icon-Pointer"></span>
-                                        <span class="f-info-text">Address : No 123 Park Sreet 123/A, NewYork, USA.</span>
+                                        <span class="f-info-text">Address : 829 Tucker Ct, Winder, GA 30680</span>
                                     </div>
                                     <div class="f-info">
                                         <span class="icon icon-Phone"></span>
-                                        <span class="f-info-text">Phone: +(012) 800 456 789</span>
+                                        <span class="f-info-text">Phone: (678) 740 2746</span>
                                     </div>
                                     <div class="f-info">
                                         <span class="icon icon-Mail"></span>
-                                        <span class="f-info-text">Email: Infor@dazimaxx.com</span>
+                                        <span class="f-info-text">Email: bodyguys@windercollision.com</span>
                                     </div>
                                 </div>
                             </div>
@@ -383,10 +521,9 @@
                             <div class="footer-links-copyright">
                                 <span>Copyright &copy; 2017 <a href="https://devitems.com/">Power-Boosts</a>. All Right Reserved.</span>
                                 <div class="social-links">
-                                    <a href="https://www.facebook.com/devitems/"><i class="fa fa-facebook"></i></a>
-                                    <a href="https://twitter.com/devitemsllc"><i class="fa fa-twitter"></i></a>
-                                    <a href="https://www.behance.net/devitems"><i class="fa fa-behance"></i></a>
-                                    <a href="https://dribbble.com/devitemsllc"><i class="fa fa-dribbble"></i></a>
+                                    <a href="https://www.instagram.com/windercollision"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/windercollision/"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://twitter.com/windercollisionllc"><i class="fa fa-twitter"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -412,5 +549,10 @@
         <script src="js/ajax-mail.js"></script> 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+       <!--slideshow js here -->
+        <script src="js/jquery-2.1.1.js"></script>
+        <script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
+        <script src="js/main2.js"></script> <!-- Resource jQuery -->
+
     </body>
 </html>

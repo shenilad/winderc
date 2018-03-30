@@ -10,6 +10,24 @@
         $subject = trim($_POST["subject"]);
         $message = trim($_POST["message"]);
 
+$formproc->SetFormRandomKey('XsHVufPpgD9Epwl');
+
+$formproc->AddFileUploadField('photo','jpg,jpeg,gif,png,bmp',2024);
+$formproc->AddFileUploadField('resume','doc,docx,pdf,txt',2024);
+
+if(isset($_POST['submitted']))
+{
+   if($formproc->ProcessForm())
+   {
+        $formproc->RedirectToURL("thank-you.php");
+   }
+}
+
+$formproc->AddFileUploadField('photo','jpg,jpeg,gif,png,bmp',2024);
+$formproc->AddFileUploadField('resume','doc,docx,pdf,txt',2024);
+$formproc->AddFileUploadField('newupload','',2024);//<<------- New file upload
+
+
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
@@ -20,7 +38,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "admin@devitems.gmail.com";
+        $recipient = "windercollision@gmail.com";
 
         // Set the email subject.
         $subject = "New contact from $name";
