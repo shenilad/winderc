@@ -178,3 +178,12 @@ NOTE: This is Header style file. All Header related style included in this file.
 }
 .header-full-area .container-fluid {padding: 0 60px;}
 .sticky .search-form {margin-top: 21px;}
+
+.arrow button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #e51515;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

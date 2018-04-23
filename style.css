@@ -486,7 +486,7 @@
     width: 100%;
 }
 .single-member:hover .team-hover {bottom: 0;}
-.single-member:hover .team-info {padding-bottom: 129px;}
+.single-member:hover .team-info {padding-bottom: 50px;}
 .single-member:hover .team-text {padding-top: 41px;}
 /*----------------------------------------*/
 /*  8. Timeline Area
@@ -1071,6 +1071,22 @@ iframe {width: 100%; border: 0;}
 }
 .advertise-btn {padding: 107px 0; text-align: right;}
 .advertise-btn > a:hover {background: #181b24 none repeat scroll 0 0;}
+
+.advertise-btn2 > a {
+    background: #e51515 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: "oswaldmedium";
+    font-size: 13px;
+    padding: 17px 44px 14px;
+    text-transform: uppercase;
+}
+
+.advertise-btn2 > a:hover {background: #181b24 none repeat scroll 0 0;}
+
+
+}
 /*----------------------------------------*/
 /*  17. Team Page
 /*----------------------------------------*/
@@ -1317,3 +1333,7 @@ iframe {width: 100%; border: 0;}
 .reply-form > h3 {margin-bottom: 27px;}
 .reply-form-wrapper {padding-top: 45px;}
 .reply-form .submit-btn {margin-top: 30px;}
+
+.background {
+    background-color: #0b0b0b;
+}
